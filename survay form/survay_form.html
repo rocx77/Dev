@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survay Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survay_form.css">
+</head>
+<body>
+    <div class ="head">
+        <h1 id="title">Survay Form For freecodecamp.org</h1>
+        <p id="description">Please fill this form to let us know your thoughts and feedback</p>
+    </div>
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+        <fieldset>
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" required> 
+        </fieldset>
+
+        <fieldset>
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email id" required >
+        </fieldset>
+
+        <fieldset>
+            <label id="number-label" for="number">Age<small>(above 12)</small> </label>
+            <input id="number" type="number" min="12" max="120" placeholder="age"> 
+        </fieldset>
+
+        <fieldset>
+            <label id="dropdown-label" for="dropdown">Choose what you use this website to learn</label>
+            <select id="dropdown" required>
+                <option value="">(choose one)</option>
+                <option value="1">Python for AI&ML</option>
+                <option value="2">Web-Dev & ops</option>
+                <option value="3">Java script</option>
+                <option value="4">Front end devlopment</option>
+                <option value="5">Full stack dev ops</option>
+                <option value="6">Cloud services</option>
+
+            </select> 
+        </fieldset>
+        <fieldset class="radio_field">
+            <legend>What is your current position</legend>
+            <input type="radio" value="student" class="inline" id="student" name="position">
+            <label class="tag"  id="student-label" for="student">Student</label>
+            <input type="radio" id="freelance" value="freelance" class="inline" name="position">
+            <label class="tag" id="freelance-label" for="freelance">Freelance</label>
+            <input type="radio" class="inline" value="sde1" id="sde-1" name="position">
+            <label class="tag" id="sde-1-label" for="sde-1">SDE 1</label>
+            <input type="radio" class="inline" id="sde-2" value="sde2" name="position">
+            <label class="tag" id="sde-2-label" for="sde-2">SDE 2</label>
+            <input type="radio" class="inline" id="open_source" value="open source" name="position">
+            <label class="tag" id="open_source" for="open_source">open source contributor</label>
+        
+        </fieldset>
+
+        <fieldset>
+            <label for="source" id="source-label">Where did you first learn about us</label>
+            <select id="source">
+                <option value="1">Instagram</option>
+                <option value="2">School news paper</option>
+                <option value="3">Youtube chanel</option>
+                <option value="4">Referal from friend</option>
+                <option value="5">Online article</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>What do you like <small>(check all that apply)</small> </small></legend>
+                <input id="front_end" value="front_end"  type="checkbox">
+            <label class="line" for="front_end">Front end projects</label>
+                <input id="back_end" value="back_end"  type="checkbox">
+            <label class="line" for="back_end">Back end projects</label>
+                <input id="data_vis" value="data_vis"  type="checkbox">
+            <label class="line" for="data_vis">Data visualisation</label>
+                <input id="challenges" value="challenges"  type="checkbox">
+            <label class="line" for="challenges">Challenges</label><br>
+                <input id="wiki" value="wiki"  type="checkbox">
+            <label class="line" for="wiki">Wiki</label>
+        </fieldset>
+        <fieldset>
+            <label for="comments">Tell us more </label>
+            <textarea id="comments" placeholder="Any further comments..." rows="10" cols="50" ></textarea>
+        </fieldset>
+    <button id="submit" type="submit" form="survey-form" >Submit</button>
+</body>
+    </form>
+    
+
+</html>

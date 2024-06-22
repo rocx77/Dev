@@ -1,0 +1,118 @@
+body{
+    background-image:  url(https://i.pinimg.com/736x/20/fd/6d/20fd6dbbf6f046c6e868a24ff1ef2300.jpg);
+    background-size:cover;
+    /* background-attachment:fixed; */
+    background-position:center;
+    width:100%;
+    height:1vh;
+    margin: 0;
+    margin-bottom:220vh;
+}
+
+.head{
+    color: rgb(35, 11, 110);
+    text-align: center;
+}
+
+h1{
+    margin:13px;
+    font-size: 50px;
+    padding:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#description{
+    margin: 2px 0 0 5px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    display: block;
+    max-width: 800px;
+    min-width:400px;
+    margin: 2rem auto 3rem auto;
+    width:70vw;
+    height: auto;
+}
+
+
+fieldset{
+    border:none;
+    padding: 10px 2rem;
+    margin: 10px auto;
+}
+
+input, select, textarea,button{
+    width:100%;
+    height:2.5em;
+    border: 2px solid rgb(200, 200, 255);
+    background-color: rgb(214, 245, 246);
+    color:rgb(3, 3, 26);
+    margin:0;
+    padding: 0 auto;
+    font-size: 20px;
+
+}
+
+.radio_field{
+    margin-top: 10px;
+    padding-right: 1.76em;
+    font-size: 1em;
+    background-color: rgba(207, 243, 243, 0.9);
+    border-radius: 90px;
+    border: 2px solid rgb(200, 200, 255);
+
+
+}
+
+
+label{
+    display:inline-block;
+    margin: 10px auto;
+    font-size: 1.999rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.inline{
+    display:inline-block;
+    width: 2.2vw;
+    margin: 0 0.8rem 0 1.12em;
+    vertical-align: middle;
+}
+
+.tag{
+    font-size: 1.686rem;
+}
+
+input[type="checkbox"]{
+    display:inline-block;
+    width: 2.2vw;
+    margin: 0 .2em 0 2em;
+    vertical-align: middle;
+}
+
+.line{
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 11em 0 .6em;
+    font-size: 2rem;
+}
+
+button{
+    display:block;
+    width: 30%;
+    margin: 6vh auto 9rem auto;
+    border-radius: 60px;
+    height: 9vh;
+    cursor:pinter;
+}
+
+fieldset:last-of-type{
+    border-bottom: solid;
+}
