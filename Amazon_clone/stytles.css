@@ -73,14 +73,14 @@ body{
 }
 
 .nav-thin{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(187, 191, 195)
 }
 
 .nav-bold{
     color:rgb(227, 220, 220);
-    font-size:.9rem;
+    font-size:.8rem;
     font-weight: 600;
 }
 
@@ -102,10 +102,10 @@ body{
 
 
 .category-list-tag{
-    width:39px;
+    width:42px;
     height:40px;
     background-color: #e6e6e6;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight:100px;
     font-family:'Courier New', Courier, monospace;
     border-radius: 5px 0 0 5px;
@@ -152,7 +152,7 @@ body{
 
 .boldy{
     color:rgb(227, 220, 220);
-    font-size:0.98rem;
+    font-size:0.8rem;
     font-weight: 700;
 }
 
@@ -167,7 +167,7 @@ body{
 
 .orders{
     height:50px;
-    width:76px;
+    width:79px;
     padding:8px 5px;
 }
 
